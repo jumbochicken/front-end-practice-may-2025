@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="lodash.js"></script>
+</head>
+<body>
+    <h1>## 4. 日曆(萬年曆)</h1>
+
+        <div> > 學習目標：for 迴圈、日期物件</div>
+        
+        <div>        請使用 for 迴圈製作一個表格，顯示目前這個月份的日曆表格。</div>        
+        <div>提示：</div>
+        
+        <div>1. 要得到某年的某個月有幾天，可以用`new Date(y, m, 0).getDate()`，例如 2009 年的 9 月就是使用`new Date(2009, 9, 0).getDate()`</div>
+        <div>2. Date 物件的`getDay()`可以得到 0-6 的值，代表是星期幾，其中 0 代表星期日</div>
+
+
+    <input type="button" id="btnPrevMonth" value="prevMonth" />
+    <input type="button" id="btnNextMonth" value="nextMonth" />
+    <div id="calendarContainer"></div>
+    <script src="index.js"></script>
+    
+</body>
+</html>

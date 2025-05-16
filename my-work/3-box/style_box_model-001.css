@@ -1,0 +1,44 @@
+
+
+#BoxContent {
+  
+    border: 1px dashed #000;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    height: 100px;
+    padding: 0px 0px 0px 0px;
+    /* vertical-align: top; */
+
+}
+
+#BoxPadding {
+  
+    border: 1px solid #000;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+    
+}
+
+#BoxBorder {
+  
+    border: 1px solid #000;
+    margin: 10px;
+    padding: 10px;
+    background-color: yellow;
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+    
+}
+#BoxMargin {
+  
+    border: 1px dashed #000;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+    
+}
